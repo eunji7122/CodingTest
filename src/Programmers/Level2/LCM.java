@@ -16,7 +16,7 @@ public class LCM {
             int tmp = 0;
             for (int j = 1; j <= range; j++) {
                 if (k % j == 0 && lcm % j == 0) {
-                    tmp = (k / j) * (lcm / j) * j;
+                    tmp = (k / j) * lcm;
                 }
             }
             lcm = tmp;

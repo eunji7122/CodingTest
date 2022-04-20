@@ -1,7 +1,6 @@
 package Programmers.Level1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class RemoveSmallestNumber {
     public static void main(String[] args) {

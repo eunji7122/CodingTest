@@ -4,7 +4,6 @@ public class GCFAndLCM {
     public static void main(String[] args) {
         solution(3, 12);
     }
-
     public static int[] solution(int n, int m) {
         int gcf = 0;
         int lcm = 0;
@@ -13,7 +12,7 @@ public class GCFAndLCM {
             for (int i = 1; i <= m; i++) {
                 if (n % i == 0 && m % i == 0) {
                     gcf = i;
-                    lcm = i * (n / i) * (m / i);
+                    lcm = n * (m / i);
                 }
             }
         } else {
