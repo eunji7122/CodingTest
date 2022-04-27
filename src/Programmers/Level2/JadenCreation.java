@@ -8,8 +8,8 @@ public class JadenCreation {
     public static String solution(String s) {
         String[] strAry = s.split(" ");
         StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < strAry.length; i++) {
-            char[] arr = strAry[i].toLowerCase().toCharArray();
+        for (String value : strAry) {
+            char[] arr = value.toLowerCase().toCharArray();
             if (arr.length > 0)
                 arr[0] = Character.toUpperCase(arr[0]);
 
