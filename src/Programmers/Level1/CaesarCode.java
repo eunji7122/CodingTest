@@ -1,11 +1,11 @@
 package Programmers.Level1;
 
+// 시저 암호
 public class CaesarCode {
     public static void main(String[] args) {
             solution("Z ", 25);
     }
 
-    // 시저 암호
     public static String solution(String s, int n) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < s.length(); i++)

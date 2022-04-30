@@ -1,11 +1,11 @@
 package Programmers.Level1;
 
+// 소수 찾기
 public class FindPrimeNumber {
     public static void main(String[] args) {
         solution(5);
     }
 
-    // 소수 찾기
     public static int solution(int n) {
         int answer = 1;
 

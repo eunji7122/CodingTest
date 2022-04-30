@@ -1,11 +1,11 @@
 package Programmers.Level1;
 
+// 문자열 내 p와 y의 개수
 public class NumberOfPAndY {
     public static void main(String[] args) {
 
     }
 
-    // 문자열 내 p와 y의 개수
     public static boolean solution(String s) {
         int pCount = 0;
         int yCount = 0;
